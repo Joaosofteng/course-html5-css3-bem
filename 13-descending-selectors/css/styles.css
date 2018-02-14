@@ -1,0 +1,15 @@
+/*
+article strong {
+    color: blue;
+}
+*/
+
+
+.mission strong {
+    color: green;
+}
+
+
+article .mark strong {
+    color: red;
+}

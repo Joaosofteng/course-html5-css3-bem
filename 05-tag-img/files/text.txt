@@ -1,0 +1,15 @@
+Sistema ERP: conceito
+
+ERP é a sigla em inglês para Enterprise Resources Planning, normalmente traduzido como Sistema 
+de Recursos Empresariais ou Sistema Integrado de Gestão. 
+
+Organizado em módulos para atender diferentes pilares administrativos e financeiros, esse tipo de programa usa integrações para 
+trocar informações entre diferentes áreas, com ganhos de tempo e eficiência para quem precisa 
+analisar e tomar decisões sobre o negócio. 
+
+Administrar um negócio envolve algumas dificuldades, especialmente para quem tem pouca experiência nessa área.
+
+CRM: Conceito
+O CRM (Customer Relationship Management) é um termo usado para o gerenciamento do relacionamento com o cliente ou 
+ainda um sistema integrado de gestão com foco no cliente, que reune vários processos\tarefas de uma forma organizada e integrada. 
+Não que uma empresa não possa pensar em CRM sem ter um software

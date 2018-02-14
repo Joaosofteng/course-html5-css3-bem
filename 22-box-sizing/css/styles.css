@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 32px;
+    margin: 0;    
+}
+
+p {
+    margin: 10px;
+}
+
+ .box1, .box2, .reference {        
+    width: 500px;
+    text-align: justify;
+    background-color: yellow;    
+}
+
+.reference {
+    background-color: blue;    
+    height: 20px;
+}
+
+.box1 {
+    box-sizing: content-box;
+    border: 3px solid red;
+    padding: 20px;
+}
+
+.box2 {
+    /*box-sizing: border-box;*/
+    border: 20px solid red;
+    padding: 20px;
+}

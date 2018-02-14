@@ -1,0 +1,17 @@
+body {
+    font-size: 32px;
+}
+
+p {    
+    text-align: justify;
+    width: 500px;
+    border: 3px solid red;
+    background-color: yellow;
+
+    /*
+    padding-left: 200px;
+    padding-top: 100px;
+    */
+    padding: 20px 50px;
+    
+}

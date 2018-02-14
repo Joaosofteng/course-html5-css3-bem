@@ -1,0 +1,23 @@
+body {
+    font-size: 30px;
+}
+
+header#header h1.logo { /* 112 */
+    color: mediumorchid
+}
+
+header#header .logo { /* 111 */
+    color: red;
+}
+
+#header .logo { /* 110 */
+    color: purple;
+}
+
+header .logo { /* 011 */
+    color: green;
+}
+
+.logo { /* 010 */
+    color: blue;
+}

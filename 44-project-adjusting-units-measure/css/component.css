@@ -1,0 +1,74 @@
+/*--------------------*\
+  CARD
+\*--------------------*/
+.card {
+    padding: 10px;
+    border: 1px solid #95a4a5;
+    
+    font-size: 1.4rem; /* 14px relative to the document */
+}
+
+.card__header {    
+    margin: -10px;
+    margin-bottom: 0;
+
+    background-color: #95a4a5;
+    color: #fff;
+
+    text-align: center;
+    line-height: 2.5;    
+    font-weight: normal;
+    font-size: 2em; /* 28px relative to the parent element card */
+}
+
+.card__title {
+    margin: 20px 0;    
+
+    text-align: center;
+    font-size: 2em;  /* 28px relative to the parent element card */ 
+}
+
+.card__list {
+    padding: 0;
+    margin: 20px 0;    
+
+    list-style: none; 
+    font-size: 1em;     
+}
+
+.card__list > li {
+    text-align: center;
+}
+
+.card__footer {
+    text-align: center;    
+}
+
+/*--------------------*\
+  BUTTON
+\*--------------------*/
+.button {
+    display: inline-block;
+    padding: 0.8em 1.2em;
+
+    background-color: #bbb;
+    color: #fff;
+
+    font-size: 1em;
+    text-decoration: none;
+}
+  
+.button:hover, .button:focus {
+    background-color: #aaa;    
+    color: #fff;    
+
+    text-decoration: none;
+}
+  
+.button--sign {
+    background-color: #127d00;
+}
+  
+.button--sign:hover, .button--sign:focus {
+    background-color: #0e6400;
+}

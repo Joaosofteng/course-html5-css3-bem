@@ -1,0 +1,12 @@
+header {
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+}
+
+header img {
+    margin-top: 12px;    
+}
+  
+.content {
+    padding: 80px 0;
+}

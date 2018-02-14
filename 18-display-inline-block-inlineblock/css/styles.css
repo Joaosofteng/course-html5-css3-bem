@@ -1,0 +1,50 @@
+body {
+    font-size: 32px;
+}
+
+.name {
+    background-color: pink;    
+}
+
+.call {
+    background-color: red;
+}
+
+.box-erp {
+    background-color: #00dd00;
+}
+
+.box-crm {
+    background-color: #fdff11;
+}
+
+.box-scm {
+    background-color: #00dddd;
+}
+
+.box-mobile {
+    background-color:  #ee00da;
+}
+
+.name, .call {
+    display: block;
+    height: 100px;
+    width: 500px;
+}
+
+.box-erp, .box-crm {
+    display: inline;
+    height: 100px; /*Has no effect*/
+    width: 500px;  /*Has no effect*/
+}
+
+.box-scm, .box-mobile {
+    display: inline-block;
+    height: 100px;
+    width: 500px;
+}
+
+/* hidden element, Can be used on all elements */
+.hidden {
+   display: none;
+}

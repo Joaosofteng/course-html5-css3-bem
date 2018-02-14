@@ -1,0 +1,29 @@
+.text {
+  font-size: 1em;
+}
+
+.text h1 {
+  font-size: 3em;
+}
+
+.text p {
+  padding: 0.5em; /* 0.5em relative to the parent element */
+  margin-right: 3em; /* 0.5em relative to the parent element */
+  border: 0.5em solid #ccc; /* 0.5em relative to the parent element */
+  
+  text-align: justify;
+  font-size: 2em;
+}
+
+.text p span {
+  font-size: 1.5em;
+}
+
+
+.footer {
+  font-size: 2rem; /* 32px this relative to the document */
+}
+
+.footer p {
+  font-size: 2rem; /* 32px this relative to the document */
+}

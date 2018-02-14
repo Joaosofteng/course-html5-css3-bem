@@ -1,0 +1,7 @@
+ERP é a sigla em inglês para Enterprise Resources Planning, normalmente traduzido como Sistema 
+de Recursos Empresariais ou Sistema Integrado de Gestão. 
+
+CRM: Conceito
+O CRM (Customer Relationship Management) é um termo usado para o gerenciamento do relacionamento com o cliente ou 
+ainda um sistema integrado de gestão com foco no cliente, que reune vários processos\tarefas de uma forma organizada e integrada. 
+Não que uma empresa não possa pensar em CRM sem ter um software

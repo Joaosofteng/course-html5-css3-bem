@@ -1,0 +1,17 @@
+
+.name {    
+    color: #f00;
+    /*
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;        
+    font-family: "Trebuchet MS", Arial, sans-serif
+    */
+    font: italic bold 30px "Tribuchet MS", Arial, sans-serif;
+    text-decoration: underline /*none or line-through*/;
+    text-align: center /*left, right, justify */ ;
+}
+
+.mission {
+    font-family: "Palatino", Arial, serif
+}

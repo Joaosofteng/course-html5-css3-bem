@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+/*-----------------------\*
+  CONTENT
+\*-----------------------*/
+.content {
+  background-color: #ccc;
+  padding: 20px;
+}
+
+
+/*-----------------------\*
+  FOOTER
+\*-----------------------*/
+.footer {
+  background-color: yellow;
+  padding: 20px;
+}
+
+
+/*-----------------------\*
+  PORTFOLIO
+\*-----------------------*/
+.portfolio {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.portfolio__item {
+  width: 300px;
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 30px;
+}
+
+
+/*-----------------------\*
+  CARD-COURSE
+\*-----------------------*/
+.card-course {
+  font-size: 32px;
+  width: 100%;
+  height: 300px;
+  background-color: red;
+  text-align: center;
+}
+
+.card-course > a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.card-course--more-sale {
+  background-color: green;
+}
+
+.card-course--new::after {
+  content: "New";
+  display: block;
+  font-size: 24px;
+  margin: 0 20%;
+  margin-top: 30px;
+  background-color: yellow;
+}
+
+
+/*-----------------------\*
+  LIST-USERS
+\*-----------------------*/
+.users {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.users > li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.users > li a {
+  color: green;
+}
+
+.users__name--new::after {
+  content: " (New)";
+}

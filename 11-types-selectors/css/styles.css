@@ -1,0 +1,31 @@
+h2 {
+ background-color: darkorchid;
+}
+
+h1#title {
+  color: blue;
+}
+
+p#subtitle {
+  color: red;
+}
+
+#box {
+  background-color: grey;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-title {
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+}
+
+.mark {
+  color: brown;
+} 
+
+.box {
+  background-color: cadetblue;  
+  font-family: Arial, Helvetica, sans-serif;
+}

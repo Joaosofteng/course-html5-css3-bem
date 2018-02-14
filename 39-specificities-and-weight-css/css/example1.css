@@ -1,0 +1,28 @@
+body {
+    font-size: 30px;
+}
+/*
+
+h1 {
+    color: red;
+}
+
+*/
+
+#logo { /* 100 */
+ color: green;
+}
+
+.name { /* 010 */
+    color: yellow;
+}
+
+h1 { /* 001 */
+    color: blue;
+}
+
+/*
+  specificities ID, class, tag(element)
+                1        1           1 
+/*
+

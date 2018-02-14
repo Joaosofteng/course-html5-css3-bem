@@ -1,0 +1,26 @@
+body {
+    font-size: 32px;
+}
+
+a {
+    /*
+    border-width: thick;
+    border-color: red;
+    border-style: solid;
+    */
+    border: thick red solid;
+    border-bottom: 5px #0000ff solid;
+    border-right:  5px #ffddbb solid;    
+}
+
+p {    
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border: 5px solid black;
+
+    /* border-top-left-radius: 50px; */
+    border-radius: 20px 10px 0 50px;
+
+    background-color: #ccc;
+}

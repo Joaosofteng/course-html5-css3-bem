@@ -1,0 +1,165 @@
+/*--------------------*\
+  CARD
+\*--------------------*/
+.card {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #95a4a5;
+    
+    font-size: 1.4rem; /* 14px relative to the document */
+}
+.card--default::after {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    padding: 0 10px;        
+
+    background-color: #c20303;
+    color: #fff;
+
+    font-size: 0.7142em;
+    line-height: 2.5;
+    font-weight: bold;
+
+    content: "MAIS VENDIDO";
+}
+.card__header {    
+    margin: -10px;
+    margin-bottom: 0;
+
+    background-color: #95a4a5;
+    color: #fff;
+
+    text-align: center;
+    line-height: 2.5;    
+    font-weight: normal;
+    font-size: 2em; /* 28px relative to the parent element card */
+}
+.card__title {
+    margin: 20px 0;    
+
+    text-align: center;
+    font-size: 2em;  /* 28px relative to the parent element card */ 
+}
+.card__list {
+    padding: 0;
+    margin: 20px 0;    
+
+    list-style: none; 
+    font-size: 1em;     
+}
+.card__list > li {
+    text-align: center;
+}
+.card__footer {
+    text-align: center;    
+}
+
+
+/*--------------------*\
+  PARALLAX
+\*--------------------*/
+.parallax {
+    font-size: 1.6rem; /* 1.6 * 10px = 16px */
+    text-align: center;
+}
+.parallax__title {
+    margin: 0;
+
+    color: #fff;
+
+    font-size: 3.375em; /* 54 / 16px = 54px */
+    line-height: 0.9;
+    text-shadow: 1px 1px #313131;
+}
+.parallax__subtitle {
+    margin: 60px 0;
+
+    color: #fff;
+
+    font-size: 1.2em;
+}
+.parallax__footer {
+    font-size: 1.2em;
+}
+
+@media(min-width: 992px) {
+    .parallax {
+        padding-left: 10%;
+        padding-right: 10%;
+
+        font-size: 2.2rem;
+    }
+}
+
+
+/*--------------------*\
+  TESTIMONY BLOCK
+\*--------------------*/
+.testimony {
+    margin: 60px 0; 
+
+    font-size: 2.2rem; /* 22px relative to the documento*/    
+}
+@media(min-width: 992px) {
+    .testimony {
+        padding-left: 10%;
+        padding-right: 10%;
+
+        font-size: 2.4rem;
+    } 
+}
+.testimony__text {
+    margin: 0;
+    padding: 0 60px;
+
+    text-align: justify;
+    font-size: 1em;
+}
+.testimony__author {
+    margin-top: 40px;       
+
+    text-align: center;
+    font-size: 0.8181em;
+}
+.testimony__author > img {
+    border-radius: 50%;
+}
+.testimony__author > p {
+    margin-top: 10px;    
+}
+
+
+/*--------------------*\
+  BUTTON
+\*--------------------*/
+.button {    
+    display: inline-block;
+    padding: 0.8em 1.2em;
+
+    background-color: #bbb;
+    color: #fff;
+
+    font-size: 1em;
+    text-decoration: none;
+}  
+.button:hover, .button:focus {
+    background-color: #aaa;    
+    color: #fff;    
+
+    text-decoration: none;
+}
+.button--default { 
+    border-radius: 5px;
+       
+    background-color: #004b86;    
+}
+.button--default:hover, .button--default:focus {
+    background-color: #003b6a;
+}
+.button--sign {
+    background-color: #127d00;
+} 
+.button--sign:hover, .button--sign:focus {
+    background-color: #0e6400;
+}

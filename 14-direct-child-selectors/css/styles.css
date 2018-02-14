@@ -1,0 +1,14 @@
+/*
+article > .important {
+    color: red;
+}
+
+article > .important > strong {
+    color: red;
+}
+*/
+
+/* Descendent and direct selector */
+article .important > strong {
+    color: red;
+}

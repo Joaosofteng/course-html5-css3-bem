@@ -1,0 +1,10 @@
+#title, h2, .mark {
+ font-family: Arial, Helvetica, sans-serif;
+ color: red;
+}
+
+.mark {
+  background-color: darkorange;
+  color: white;
+}
+

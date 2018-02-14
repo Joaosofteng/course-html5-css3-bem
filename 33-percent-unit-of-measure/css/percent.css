@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 10 / 16 * 100 = 62.5 - relative font default of browse*/
+}
+
+.container {
+    width: 80%;
+    background-color: yellow;
+}
+
+.box {    
+    width: 50%;
+    padding: 5%;
+    font-size: 200%;
+    background-color: #ccc;
+    border: 5px solid black;
+}
+
+h1 {   
+    font-size: 300%; /* 60px */
+}
+
+p {      
+   font-size: 200%; /* 40px */
+}
